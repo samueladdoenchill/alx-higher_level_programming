@@ -1,2 +1,4 @@
 #!/bin/bash
+# This script executes a Python script.
+# Replace "$PYFILE" with the name of the Python script you want to run.
 python3 $PYFILE
