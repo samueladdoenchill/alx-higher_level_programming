@@ -3,6 +3,7 @@
 # Import functions from calculator_1 module
 from calculator_1 import add, sub, mul, div
 
+
 def arg_calc(argv):
     # Calculate the number of arguments
     n = len(argv) - 1
@@ -30,8 +31,12 @@ def arg_calc(argv):
         print("Unknown operator. Available operators: +, -, * and /")
         exit(1)
 
+
 # Entry point of the script
+
 if __name__ == "__main__":
     import sys
-    # Call the arg_calc function with command-line arguments
+
+
+# Call the arg_calc function with command-line arguments
     arg_calc(sys.argv)
