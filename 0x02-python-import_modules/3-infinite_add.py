@@ -1,17 +1,15 @@
 #!/usr/bin/python3
 
-if __name__ == "__main__":
-    """Entry point of the script."""
+"""
+A program that displays the sum of all command-line arguments.
+"""
 
+if __name__ == "__main__":
     import sys
 
-    # Initialize the total sum
-    total = 0
+    total_sum = 0
 
-    # Loop through command-line arguments and calculate the total
-    for i in range(len(sys.argv) - 1):
-        # Convert the argument to an integer and add to the total
-        total += int(sys.argv[i + 1])
+    for arg in sys.argv[1:]:
+        total_sum += int(arg)
 
-        # Print the current total
-        print("{}".format(total))
+    print("Sum of all arguments: {}".format(total_sum))
