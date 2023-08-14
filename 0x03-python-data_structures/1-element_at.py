@@ -9,7 +9,7 @@ def element_at(my_list, idx):
         idx (int): The index of the element to retrieve.
 
     Returns:
-        The element at the specified index if the index is within the valid range,
+        The element at specified index if index is within valid range,
         otherwise, returns None.
     """
     if idx < 0 or idx > len(my_list) - 1:
