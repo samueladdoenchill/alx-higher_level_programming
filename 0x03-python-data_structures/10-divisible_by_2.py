@@ -3,12 +3,12 @@
 def divisible_by_2(my_list=[]):
     """
     Determine divisibility by 2 for each element in the list.
-    
+
     Args:
         my_list (list): The input list of integers.
-        
+
     Returns:
-        A new list of booleans indicating whether each element is divisible by 2.
+        A new list of booleans indicating whether element is divisible by 2.
     """
     if not my_list:
         return

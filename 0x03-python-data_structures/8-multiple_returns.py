@@ -2,7 +2,7 @@
 
 def multiple_returns(sentence):
     """
-    Return a tuple containing the length of the sentence and its first character.
+    Return tuple containing length of sentence and its first character.
 
     Args:
         sentence (str): The input sentence.
