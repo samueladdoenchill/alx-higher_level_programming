@@ -2,15 +2,19 @@
 
 def multiple_returns(sentence):
     """
-    Return tuple containing length of sentence and its first character.
-
+    Generate a tuple with length of sentence and its first character.
+    
     Args:
         sentence (str): The input sentence.
-
+        
     Returns:
-        A tuple containing the length of the sentence and its first character.
+        A tuple containing length of sentence and its first character.
     """
-    if not sentence:
-        return
-    result_tuple = (len(sentence), sentence[0])
-    return result_tuple
+    my_tuple = ()
+    
+    if len(sentence) == 0:
+        my_tuple = 0, "None"
+    else:
+        my_tuple = len(sentence), sentence[0]
+    
+    return my_tuple
