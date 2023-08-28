@@ -1,6 +1,7 @@
 #include <Python.h>
 
-// Function to print information about a Python list
+# Function to print information about a Python list
+
 void print_python_list(PyObject *p) {
 	if (PyList_Check(p)) {
 		Py_ssize_t size = PyList_Size(p);
@@ -19,7 +20,8 @@ void print_python_list(PyObject *p) {
 	}
 }
 
-// Function to print information about a Python bytes object
+# Function to print information about a Python bytes object
+
 void print_python_bytes(PyObject *p) {
 	if (PyBytes_Check(p)) {
 		Py_ssize_t size = PyBytes_Size(p);
@@ -41,7 +43,8 @@ void print_python_bytes(PyObject *p) {
 	}
 }
 
-// Function to print information about a Python float object
+# Function to print information about a Python float object
+
 void print_python_float(PyObject *p) {
 	if (PyFloat_Check(p)) {
 		printf("[.] float object info\n");
