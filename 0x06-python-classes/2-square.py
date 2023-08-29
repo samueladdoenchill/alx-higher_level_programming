@@ -7,8 +7,8 @@ class Square:
 
         Args:
             size (int): The size of the square's side.
-                        Defaults to 0 if not provided.
-        
+            Defaults to 0 if not provided.
+
         Raises:
             TypeError: If size is not an integer.
             ValueError: If size is negative.
